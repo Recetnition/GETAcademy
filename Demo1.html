@@ -4,32 +4,88 @@
 <head>
     <meta charset="utf-8" />
     <title>Start IT</title>
+    <link rel="stylesheet" href="StyleSheet1.css">
 </head>
 <body>
-    <h1>Hallo, Start IT!</h1>
+    <header>
+        <nav>
+            <a href="Demo1.html"> Home </a>
+            <a href="ludo.html"> Ludo </a>
+        </nav>
+    </header>
+    <h1 title='"hedding" "blah"'>Hallo, Start IT!</h1>
     <h2>Hallo, Start IT!</h2>
     <h3>Hallo, Start IT!</h3>
-    <p style="color:green;">
-        Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla.
-        Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla.
-        Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla.
-        
-        Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla.
-        Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla.
-        Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla.
-<br>
-        Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla.
-        Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla.
-        Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla. Bla bla bla.
-<br>
-        Test test test. Test test test. Test test test. Test test test. Test test test.
-        Test test test. Test test test. Test test test. Test test test. Test test test.
-        Test test test. Test test test. Test test test. Test test test. Test test test.
-        
-        Test test test. Test test test. Test test test. Test test test. Test test test.
-        Test test test. Test test test. Test test test. Test test test. Test test test.
-        Test test test. Test test test. Test test test. Test test test. Test test test.
-        
-    </p>
+    
+    <svg width="400" height="400">
+        <circle cx="150" cy="50" r="10" stroke="black" fill="black" />
+        <circle cx="100" cy="50" r="40" stroke="black" stroke-width="4" fill="white" />
+        <circle cx="100" cy="170" r="80" stroke="black" stroke-width="4" fill="white" />
+    </svg>
+    <!-- test stuff
+    <br />
+    <svg width="200" height="200">
+        <circle cx="100" cy="100" r="80" stroke="black" stroke-width="4" fill="white" />
+    </svg> -->
+    <br />
+    <div class="p1">
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+    </div>
+    <div class="p2">
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+    </div>
+    <div class="p3">
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+        Bla bla bla. Bla bla bla. Bla bla bla.
+    </div>
+    <img src="img/bilde1.jpg" alt="Man relaxing">
+    <form>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" value="Daniel"><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" value="Antonsen" />
+    </form>
+    <br />
+    <form>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </form>
+    <br />
+    <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I have a bike</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+        <label for="vehicle3"> I have a boat</label>
+    </form>
+    <br />
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Daniel"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Antonsen"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <br />
+    <input type="button">
 </body>
 </html>

@@ -1,0 +1,87 @@
+﻿body {
+    text-align: center;
+}
+header {
+    background-color: #bf1f3c;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    text-decoration:none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+rect.board {
+    fill: rgb(235, 185, 123);
+    stroke: black;
+    stroke-width: 2px;
+}
+
+rect.part {
+    stroke-width: 1px;
+    stroke: black;
+    fill: transparent;
+}
+rect.square {
+    fill: white;
+    stroke: black;
+}
+rect.redsquare {
+    fill: red;
+    stroke: black;
+}
+rect.yellowsquare {
+    fill: yellow;
+    stroke: black;
+}
+rect.bluesquare {
+    fill: #5a48fa;
+    stroke: black;
+}
+rect.greensquare {
+    fill: green;
+    stroke: black;
+}
+circle.circle {
+    stroke: black;
+}
+circle.blue {
+    fill: #5a48fa;
+
+}
+circle.red {
+    fill: red;
+}
+circle.white {
+    fill: white;
+}
+circle.yellow {
+    fill: yellow;
+}
+circle.green {
+    fill: green;
+}
+
+polygon.red {
+    stroke: black;
+    stroke-width:1px;
+    fill: red;
+}
+polygon.yellow {
+    stroke: black;
+    stroke-width: 1px;
+    fill: yellow;
+}
+polygon.blue {
+    stroke: black;
+    stroke-width: 1px;
+    fill: #5a48fa;
+
+}
+polygon.green {
+    stroke: black;
+    stroke-width: 1px;
+    fill: green;
+}

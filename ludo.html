@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Ludo</title>
+    <link rel="stylesheet" href="ludostyle.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Demo1.html"> Home </a>
+            <a href="ludo.html"> Ludo </a>
+        </nav>
+    </header>
+
+
+    <svg height="400" width="400" viewbox="0 0 100 100">
+        <!-- Red Squares-->
+        <rect class="board" width="100" height="100" />
+        <rect class="square" x="41" y="5" width="6" height="6" />
+        <rect class="square" x="41" y="11" width="6" height="6" />
+        <rect class="square" x="41" y="17" width="6" height="6" />
+        <rect class="square" x="41" y="23" width="6" height="6" />
+        <rect class="square" x="41" y="29" width="6" height="6" />
+        <rect class="square" x="41" y="35" width="6" height="6" />
+        <rect class="square" x="47" y="5" width="6" height="6" />
+        <rect class="redsquare" x="47" y="11" width="6" height="6" />
+        <rect class="redsquare" x="47" y="17" width="6" height="6" />
+        <rect class="redsquare" x="47" y="23" width="6" height="6" />
+        <rect class="redsquare" x="47" y="29" width="6" height="6" />
+        <rect class="redsquare" x="47" y="35" width="6" height="6" />
+        <rect class="square" x="53" y="5" width="6" height="6" />
+        <rect class="redsquare" x="53" y="11" width="6" height="6" />
+        <rect class="square" x="53" y="17" width="6" height="6" />
+        <rect class="square" x="53" y="23" width="6" height="6" />
+        <rect class="square" x="53" y="29" width="6" height="6" />
+        <rect class="square" x="53" y="35" width="6" height="6" />
+
+        <!-- Yellow Squares-->
+        <rect class="square" x="41" y="59" width="6" height="6" />
+        <rect class="square" x="41" y="65" width="6" height="6" />
+        <rect class="square" x="41" y="71" width="6" height="6" />
+        <rect class="square" x="41" y="77" width="6" height="6" />
+        <rect class="yellowsquare" x="41" y="83" width="6" height="6" />
+        <rect class="square" x="41" y="89" width="6" height="6" />
+        <rect class="yellowsquare" x="47" y="59" width="6" height="6" />
+        <rect class="yellowsquare" x="47" y="65" width="6" height="6" />
+        <rect class="yellowsquare" x="47" y="71" width="6" height="6" />
+        <rect class="yellowsquare" x="47" y="77" width="6" height="6" />
+        <rect class="yellowsquare" x="47" y="83" width="6" height="6" />
+        <rect class="square" x="47" y="89" width="6" height="6" />
+        <rect class="square" x="53" y="59" width="6" height="6" />
+        <rect class="square" x="53" y="65" width="6" height="6" />
+        <rect class="square" x="53" y="71" width="6" height="6" />
+        <rect class="square" x="53" y="77" width="6" height="6" />
+        <rect class="square" x="53" y="83" width="6" height="6" />
+        <rect class="square" x="53" y="89" width="6" height="6" />
+
+        <!-- Blue squares-->
+        <rect class="square" x="5" y="41" width="6" height="6" />
+        <rect class="bluesquare" x="11" y="41" width="6" height="6" />
+        <rect class="square" x="17" y="41" width="6" height="6" />
+        <rect class="square" x="23" y="41" width="6" height="6" />
+        <rect class="square" x="29" y="41" width="6" height="6" />
+        <rect class="square" x="35" y="41" width="6" height="6" />
+        <rect class="square" x="5" y="47" width="6" height="6" />
+        <rect class="bluesquare" x="11" y="47" width="6" height="6" />
+        <rect class="bluesquare" x="17" y="47" width="6" height="6" />
+        <rect class="bluesquare" x="23" y="47" width="6" height="6" />
+        <rect class="bluesquare" x="29" y="47" width="6" height="6" />
+        <rect class="bluesquare" x="35" y="47" width="6" height="6" />
+        <rect class="square" x="5" y="53" width="6" height="6" />
+        <rect class="square" x="11" y="53" width="6" height="6" />
+        <rect class="square" x="17" y="53" width="6" height="6" />
+        <rect class="square" x="23" y="53" width="6" height="6" />
+        <rect class="square" x="29" y="53" width="6" height="6" />
+        <rect class="square" x="35" y="53" width="6" height="6" />
+        <!-- Green Squares-->
+        <rect class="square" x="59" y="53" width="6" height="6" />
+        <rect class="square" x="65" y="53" width="6" height="6" />
+        <rect class="square" x="71" y="53" width="6" height="6" />
+        <rect class="square" x="77" y="53" width="6" height="6" />
+        <rect class="greensquare" x="83" y="53" width="6" height="6" />
+        <rect class="square" x="89" y="53" width="6" height="6" />
+        <rect class="greensquare" x="59" y="47" width="6" height="6" />
+        <rect class="greensquare" x="65" y="47" width="6" height="6" />
+        <rect class="greensquare" x="71" y="47" width="6" height="6" />
+        <rect class="greensquare" x="77" y="47" width="6" height="6" />
+        <rect class="greensquare" x="83" y="47" width="6" height="6" />
+        <rect class="square" x="89" y="47" width="6" height="6" />
+        <rect class="square" x="59" y="41" width="6" height="6" />
+        <rect class="square" x="65" y="41" width="6" height="6" />
+        <rect class="square" x="71" y="41" width="6" height="6" />
+        <rect class="square" x="77" y="41" width="6" height="6" />
+        <rect class="square" x="83" y="41" width="6" height="6" />
+        <rect class="square" x="89" y="41" width="6" height="6" />
+
+
+        <!-- Blue circle-->
+        <rect class="part" x="5" y="5" width="36" height="36" />
+        <circle class="blue circle" cx="23" cy="23" r="10" />
+        <circle class="white circle" cx="19" cy="20" r="2" />
+        <circle class="white circle" cx="27" cy="20" r="2" />
+        <circle class="white circle" cx="27" cy="27" r="2" />
+        <circle class="white circle" cx="19" cy="27" r="2" />
+        <!-- Red circle-->
+        <rect class="part" x="59" y="5" width="36" height="36" />
+        <circle class="red circle" cx="77" cy="23" r="10" />
+        <circle class="white circle" cx="73" cy="20" r="2" />
+        <circle class="white circle" cx="81" cy="20" r="2" />
+        <circle class="white circle" cx="81" cy="27" r="2" />
+        <circle class="white circle" cx="73" cy="27" r="2" />
+        <!-- Yellow circle-->
+        <rect class="part" x="5" y="59" width="36" height="36" />
+        <circle class="yellow circle" cx="23" cy="77" r="10" />
+        <circle class="white circle" cx="19" cy="81" r="2" />
+        <circle class="white circle" cx="27" cy="81" r="2" />
+        <circle class="white circle" cx="27" cy="73" r="2" />
+        <circle class="white circle" cx="19" cy="73" r="2" />
+        <!-- Green Circle-->
+        <rect class="part" x="59" y="59" width="36" height="36" />
+        <circle class="green circle" cx="77" cy="77" r="10" />
+        <circle class="white circle" cx="73" cy="81" r="2" />
+        <circle class="white circle" cx="81" cy="81" r="2" />
+        <circle class="white circle" cx="81" cy="73" r="2" />
+        <circle class="white circle" cx="73" cy="73" r="2" />
+
+        <!-- Mid triangles-->
+        <polygon class="red" points="50,50,59,41,41,41" />
+        <polygon class="yellow" points="50,50,41,59,59,59" />
+        <polygon class="blue" points="41,41,41,59,50,50" />
+        <polygon class="green" points="59,59,59,41,50,50" />
+    </svg>
+
+</body>
+</html>

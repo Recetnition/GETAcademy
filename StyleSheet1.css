@@ -1,0 +1,45 @@
+﻿body {
+    background-color: gray;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    background-color: #bf1f3c;
+    display: flex;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: rgb(40, 188, 247); 
+    text-shadow: 2px 0 0 #000, -2px 0 0#000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+    border-style: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    border-style: dashed;
+}
+
+h3 {
+    border-style: dotted;
+}
+
+
+div {
+    float: left;
+    color: rgb(0, 238, 255);
+    background-color: rgba( 46, 47, 48, 0.664);
+    width: 400px;
+    padding: 15px;
+}
+
+    .p3 {
+        color: red;
+    }
+
